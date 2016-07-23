@@ -25,9 +25,9 @@ set splitbelow
 set splitright
 
 set backup
-set undofile
+"set undofile
 set undolevels=1000
-set undoreload=10000
+"set undoreload=10000
 
 set showmode
 set lazyredraw
@@ -70,8 +70,8 @@ let g:airline_theme='tomorrow'
 " Formatting
 set nowrap                      " Wrap long lines
 set autoindent                  " Indent at the same level of the previous line
-set shiftwidth=4                " Use indents of 4 spaces
-set expandtab                   " Tabs are spaces, not tabs
+" set shiftwidth=4                " Use indents of 4 spaces
+" set expandtab                   " Tabs are spaces, not tabs
 set tabstop=4                   " An indentation every four columns
 set softtabstop=4               " Let backspace delete indent
 set pastetoggle=<F12>           " pastetoggle (sane indentation on pastes)

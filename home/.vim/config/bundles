@@ -73,6 +73,8 @@ Bundle 'digitaltoad/vim-jade'
 " HTML
 Bundle 'alvan/vim-closetag'
 Bundle 'hail2u/vim-css3-syntax'
+Plugin 'JulesWang/css.vim'
+Plugin 'cakebaker/scss-syntax.vim'
 
 " Ruby
 Bundle 'tpope/vim-rails'

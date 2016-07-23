@@ -10,8 +10,7 @@ function! InitializeDirectories()
   let dir_list = {
     \ 'backup': 'backupdir',
     \ 'views': 'viewdir',
-    \ 'swap': 'directory',
-    \ 'undo': 'undodir' }
+    \ 'swap': 'directory'}
 
   let common_dir = parent . '/.' . prefix
 
